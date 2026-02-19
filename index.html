@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Whisper GUI</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                padding: 20px;
+            }
+            button {
+                margin-right: 10px;
+            }
+            #file-info {
+                margin-left: 10px;
+                color: #666;
+            }
+            #result {
+                white-space: pre-wrap;
+                border: 1px solid #ccc;
+                padding: 10px;
+                margin-top: 20px;
+                min-height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Whisper 语音识别</h1>
+        <button id="select-btn">选择音频文件</button>
+        <span id="file-info">未选择文件</span>
+        <br /><br />
+        <button id="transcribe-btn">开始转录</button>
+        <div id="result">等待操作...</div>
+        <script src="renderer.js"></script>
+    </body>
+</html>

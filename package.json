@@ -1,0 +1,23 @@
+{
+  "name": "whisper_ui",
+  "version": "1.0.0",
+  "description": "a whisper app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [
+    "whisper",
+    "gui"
+  ],
+  "author": "lilyco42",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.11.1",
+    "electron-prebuilt-compile": "40.5.0"
+  },
+  "dependencies": {}
+}
