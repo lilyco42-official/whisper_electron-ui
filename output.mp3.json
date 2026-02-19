@@ -1,0 +1,1418 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "tiny",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 384,
+			"head": 6,
+			"layer": 4
+		},
+		"text": {
+			"ctx": 448,
+			"state": 384,
+			"head": 6,
+			"layer": 4
+		},
+		"mels": 80,
+		"ftype": 9
+	},
+	"params": {
+		"model": "D:\\CODE\\sui\\whisper_ui\\whisper\\ggml-tiny-q5_1.bin",
+		"language": "zh",
+		"translate": false
+	},
+	"result": {
+		"language": "zh"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2000
+			},
+			"text": "我們要不要再說了"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:30,000",
+				"to": "00:01:00,000"
+			},
+			"offsets": {
+				"from": 30000,
+				"to": 60000
+			},
+			"text": "我們都是一種舞蹈舞蹈的踏動舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞蹈舞"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:00,000",
+				"to": "00:01:02,000"
+			},
+			"offsets": {
+				"from": 60000,
+				"to": 62000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:02,000",
+				"to": "00:01:04,000"
+			},
+			"offsets": {
+				"from": 62000,
+				"to": 64000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:04,000",
+				"to": "00:01:06,000"
+			},
+			"offsets": {
+				"from": 64000,
+				"to": 66000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,000",
+				"to": "00:01:08,000"
+			},
+			"offsets": {
+				"from": 66000,
+				"to": 68000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:08,000",
+				"to": "00:01:09,000"
+			},
+			"offsets": {
+				"from": 68000,
+				"to": 69000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:09,000",
+				"to": "00:01:10,000"
+			},
+			"offsets": {
+				"from": 69000,
+				"to": 70000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:10,000",
+				"to": "00:01:12,000"
+			},
+			"offsets": {
+				"from": 70000,
+				"to": 72000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:12,000",
+				"to": "00:01:13,000"
+			},
+			"offsets": {
+				"from": 72000,
+				"to": 73000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:13,000",
+				"to": "00:01:14,000"
+			},
+			"offsets": {
+				"from": 73000,
+				"to": 74000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:14,000",
+				"to": "00:01:15,000"
+			},
+			"offsets": {
+				"from": 74000,
+				"to": 75000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:15,000",
+				"to": "00:01:16,000"
+			},
+			"offsets": {
+				"from": 75000,
+				"to": 76000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,000",
+				"to": "00:01:17,000"
+			},
+			"offsets": {
+				"from": 76000,
+				"to": 77000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:17,000",
+				"to": "00:01:18,000"
+			},
+			"offsets": {
+				"from": 77000,
+				"to": 78000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:18,000",
+				"to": "00:01:19,000"
+			},
+			"offsets": {
+				"from": 78000,
+				"to": 79000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:19,000",
+				"to": "00:01:20,000"
+			},
+			"offsets": {
+				"from": 79000,
+				"to": 80000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:20,000",
+				"to": "00:01:21,000"
+			},
+			"offsets": {
+				"from": 80000,
+				"to": 81000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:21,000",
+				"to": "00:01:22,000"
+			},
+			"offsets": {
+				"from": 81000,
+				"to": 82000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:22,000",
+				"to": "00:01:23,000"
+			},
+			"offsets": {
+				"from": 82000,
+				"to": 83000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:23,000",
+				"to": "00:01:24,000"
+			},
+			"offsets": {
+				"from": 83000,
+				"to": 84000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:24,000",
+				"to": "00:01:25,000"
+			},
+			"offsets": {
+				"from": 84000,
+				"to": 85000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:25,000",
+				"to": "00:01:26,000"
+			},
+			"offsets": {
+				"from": 85000,
+				"to": 86000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,000",
+				"to": "00:01:27,000"
+			},
+			"offsets": {
+				"from": 86000,
+				"to": 87000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:30,000",
+				"to": "00:01:31,000"
+			},
+			"offsets": {
+				"from": 90000,
+				"to": 91000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,000",
+				"to": "00:01:32,000"
+			},
+			"offsets": {
+				"from": 91000,
+				"to": 92000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:32,000",
+				"to": "00:01:33,000"
+			},
+			"offsets": {
+				"from": 92000,
+				"to": 93000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:33,000",
+				"to": "00:01:34,000"
+			},
+			"offsets": {
+				"from": 93000,
+				"to": 94000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:34,000",
+				"to": "00:01:35,000"
+			},
+			"offsets": {
+				"from": 94000,
+				"to": 95000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:35,000",
+				"to": "00:01:36,000"
+			},
+			"offsets": {
+				"from": 95000,
+				"to": 96000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:36,000",
+				"to": "00:01:37,000"
+			},
+			"offsets": {
+				"from": 96000,
+				"to": 97000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:37,000",
+				"to": "00:01:38,000"
+			},
+			"offsets": {
+				"from": 97000,
+				"to": 98000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:38,000",
+				"to": "00:01:39,000"
+			},
+			"offsets": {
+				"from": 98000,
+				"to": 99000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:39,000",
+				"to": "00:01:40,000"
+			},
+			"offsets": {
+				"from": 99000,
+				"to": 100000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:40,000",
+				"to": "00:01:41,000"
+			},
+			"offsets": {
+				"from": 100000,
+				"to": 101000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:41,000",
+				"to": "00:01:42,000"
+			},
+			"offsets": {
+				"from": 101000,
+				"to": 102000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:42,000",
+				"to": "00:01:43,000"
+			},
+			"offsets": {
+				"from": 102000,
+				"to": 103000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:43,000",
+				"to": "00:01:44,000"
+			},
+			"offsets": {
+				"from": 103000,
+				"to": 104000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:44,000",
+				"to": "00:01:45,000"
+			},
+			"offsets": {
+				"from": 104000,
+				"to": 105000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:45,000",
+				"to": "00:01:46,000"
+			},
+			"offsets": {
+				"from": 105000,
+				"to": 106000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:46,000",
+				"to": "00:01:47,000"
+			},
+			"offsets": {
+				"from": 106000,
+				"to": 107000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:47,000",
+				"to": "00:01:48,000"
+			},
+			"offsets": {
+				"from": 107000,
+				"to": 108000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:48,000",
+				"to": "00:01:49,000"
+			},
+			"offsets": {
+				"from": 108000,
+				"to": 109000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:49,000",
+				"to": "00:01:50,000"
+			},
+			"offsets": {
+				"from": 109000,
+				"to": 110000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:50,000",
+				"to": "00:01:51,000"
+			},
+			"offsets": {
+				"from": 110000,
+				"to": 111000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:51,000",
+				"to": "00:01:52,000"
+			},
+			"offsets": {
+				"from": 111000,
+				"to": 112000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:00,000",
+				"to": "00:02:02,000"
+			},
+			"offsets": {
+				"from": 120000,
+				"to": 122000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:02,000",
+				"to": "00:02:03,000"
+			},
+			"offsets": {
+				"from": 122000,
+				"to": 123000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:03,000",
+				"to": "00:02:04,000"
+			},
+			"offsets": {
+				"from": 123000,
+				"to": 124000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:04,000",
+				"to": "00:02:05,000"
+			},
+			"offsets": {
+				"from": 124000,
+				"to": 125000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:05,000",
+				"to": "00:02:06,000"
+			},
+			"offsets": {
+				"from": 125000,
+				"to": 126000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:06,000",
+				"to": "00:02:07,000"
+			},
+			"offsets": {
+				"from": 126000,
+				"to": 127000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:07,000",
+				"to": "00:02:08,000"
+			},
+			"offsets": {
+				"from": 127000,
+				"to": 128000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:08,000",
+				"to": "00:02:09,000"
+			},
+			"offsets": {
+				"from": 128000,
+				"to": 129000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:09,000",
+				"to": "00:02:10,000"
+			},
+			"offsets": {
+				"from": 129000,
+				"to": 130000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:10,000",
+				"to": "00:02:11,000"
+			},
+			"offsets": {
+				"from": 130000,
+				"to": 131000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:11,000",
+				"to": "00:02:12,000"
+			},
+			"offsets": {
+				"from": 131000,
+				"to": 132000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:12,000",
+				"to": "00:02:13,000"
+			},
+			"offsets": {
+				"from": 132000,
+				"to": 133000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:13,000",
+				"to": "00:02:14,000"
+			},
+			"offsets": {
+				"from": 133000,
+				"to": 134000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:14,000",
+				"to": "00:02:15,000"
+			},
+			"offsets": {
+				"from": 134000,
+				"to": 135000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:15,000",
+				"to": "00:02:16,000"
+			},
+			"offsets": {
+				"from": 135000,
+				"to": 136000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:16,000",
+				"to": "00:02:17,000"
+			},
+			"offsets": {
+				"from": 136000,
+				"to": 137000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:17,000",
+				"to": "00:02:18,000"
+			},
+			"offsets": {
+				"from": 137000,
+				"to": 138000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:18,000",
+				"to": "00:02:19,000"
+			},
+			"offsets": {
+				"from": 138000,
+				"to": 139000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:19,000",
+				"to": "00:02:20,000"
+			},
+			"offsets": {
+				"from": 139000,
+				"to": 140000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:20,000",
+				"to": "00:02:21,000"
+			},
+			"offsets": {
+				"from": 140000,
+				"to": 141000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:21,000",
+				"to": "00:02:22,000"
+			},
+			"offsets": {
+				"from": 141000,
+				"to": 142000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:22,000",
+				"to": "00:02:23,000"
+			},
+			"offsets": {
+				"from": 142000,
+				"to": 143000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:30,000",
+				"to": "00:02:32,000"
+			},
+			"offsets": {
+				"from": 150000,
+				"to": 152000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:32,000",
+				"to": "00:02:33,000"
+			},
+			"offsets": {
+				"from": 152000,
+				"to": 153000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:33,000",
+				"to": "00:02:35,000"
+			},
+			"offsets": {
+				"from": 153000,
+				"to": 155000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:35,000",
+				"to": "00:02:37,000"
+			},
+			"offsets": {
+				"from": 155000,
+				"to": 157000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:37,000",
+				"to": "00:02:38,000"
+			},
+			"offsets": {
+				"from": 157000,
+				"to": 158000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:38,000",
+				"to": "00:02:39,000"
+			},
+			"offsets": {
+				"from": 158000,
+				"to": 159000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:39,000",
+				"to": "00:02:41,000"
+			},
+			"offsets": {
+				"from": 159000,
+				"to": 161000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:41,000",
+				"to": "00:02:42,000"
+			},
+			"offsets": {
+				"from": 161000,
+				"to": 162000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:42,000",
+				"to": "00:02:43,000"
+			},
+			"offsets": {
+				"from": 162000,
+				"to": 163000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:43,000",
+				"to": "00:02:44,000"
+			},
+			"offsets": {
+				"from": 163000,
+				"to": 164000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:44,000",
+				"to": "00:02:45,000"
+			},
+			"offsets": {
+				"from": 164000,
+				"to": 165000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:45,000",
+				"to": "00:02:46,000"
+			},
+			"offsets": {
+				"from": 165000,
+				"to": 166000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:46,000",
+				"to": "00:02:47,000"
+			},
+			"offsets": {
+				"from": 166000,
+				"to": 167000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:47,000",
+				"to": "00:02:48,000"
+			},
+			"offsets": {
+				"from": 167000,
+				"to": 168000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:48,000",
+				"to": "00:02:50,000"
+			},
+			"offsets": {
+				"from": 168000,
+				"to": 170000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:50,000",
+				"to": "00:02:51,000"
+			},
+			"offsets": {
+				"from": 170000,
+				"to": 171000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:51,000",
+				"to": "00:02:52,000"
+			},
+			"offsets": {
+				"from": 171000,
+				"to": 172000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:52,000",
+				"to": "00:02:53,000"
+			},
+			"offsets": {
+				"from": 172000,
+				"to": 173000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:53,000",
+				"to": "00:02:54,000"
+			},
+			"offsets": {
+				"from": 173000,
+				"to": 174000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:54,000",
+				"to": "00:02:55,000"
+			},
+			"offsets": {
+				"from": 174000,
+				"to": 175000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:55,000",
+				"to": "00:02:56,000"
+			},
+			"offsets": {
+				"from": 175000,
+				"to": 176000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:02:56,000",
+				"to": "00:02:57,000"
+			},
+			"offsets": {
+				"from": 176000,
+				"to": 177000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:00,000",
+				"to": "00:03:02,000"
+			},
+			"offsets": {
+				"from": 180000,
+				"to": 182000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:02,000",
+				"to": "00:03:04,000"
+			},
+			"offsets": {
+				"from": 182000,
+				"to": 184000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:04,000",
+				"to": "00:03:05,000"
+			},
+			"offsets": {
+				"from": 184000,
+				"to": 185000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:05,000",
+				"to": "00:03:06,000"
+			},
+			"offsets": {
+				"from": 185000,
+				"to": 186000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:06,000",
+				"to": "00:03:07,000"
+			},
+			"offsets": {
+				"from": 186000,
+				"to": 187000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:07,000",
+				"to": "00:03:08,000"
+			},
+			"offsets": {
+				"from": 187000,
+				"to": 188000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:08,000",
+				"to": "00:03:09,000"
+			},
+			"offsets": {
+				"from": 188000,
+				"to": 189000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:09,000",
+				"to": "00:03:10,000"
+			},
+			"offsets": {
+				"from": 189000,
+				"to": 190000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:10,000",
+				"to": "00:03:11,000"
+			},
+			"offsets": {
+				"from": 190000,
+				"to": 191000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:11,000",
+				"to": "00:03:12,000"
+			},
+			"offsets": {
+				"from": 191000,
+				"to": 192000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:12,000",
+				"to": "00:03:13,000"
+			},
+			"offsets": {
+				"from": 192000,
+				"to": 193000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:13,000",
+				"to": "00:03:14,000"
+			},
+			"offsets": {
+				"from": 193000,
+				"to": 194000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:14,000",
+				"to": "00:03:15,000"
+			},
+			"offsets": {
+				"from": 194000,
+				"to": 195000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:15,000",
+				"to": "00:03:16,000"
+			},
+			"offsets": {
+				"from": 195000,
+				"to": 196000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:16,000",
+				"to": "00:03:17,000"
+			},
+			"offsets": {
+				"from": 196000,
+				"to": 197000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:17,000",
+				"to": "00:03:18,000"
+			},
+			"offsets": {
+				"from": 197000,
+				"to": 198000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:18,000",
+				"to": "00:03:18,000"
+			},
+			"offsets": {
+				"from": 198000,
+				"to": 198000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:18,000",
+				"to": "00:03:19,000"
+			},
+			"offsets": {
+				"from": 198000,
+				"to": 199000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:19,000",
+				"to": "00:03:19,000"
+			},
+			"offsets": {
+				"from": 199000,
+				"to": 199000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:19,000",
+				"to": "00:03:20,000"
+			},
+			"offsets": {
+				"from": 199000,
+				"to": 200000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:20,000",
+				"to": "00:03:21,000"
+			},
+			"offsets": {
+				"from": 200000,
+				"to": 201000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:21,000",
+				"to": "00:03:22,000"
+			},
+			"offsets": {
+				"from": 201000,
+				"to": 202000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:30,000",
+				"to": "00:03:31,000"
+			},
+			"offsets": {
+				"from": 210000,
+				"to": 211000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:31,000",
+				"to": "00:03:32,000"
+			},
+			"offsets": {
+				"from": 211000,
+				"to": 212000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:32,000",
+				"to": "00:03:33,000"
+			},
+			"offsets": {
+				"from": 212000,
+				"to": 213000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:33,000",
+				"to": "00:03:34,000"
+			},
+			"offsets": {
+				"from": 213000,
+				"to": 214000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:34,000",
+				"to": "00:03:35,000"
+			},
+			"offsets": {
+				"from": 214000,
+				"to": 215000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:35,000",
+				"to": "00:03:36,000"
+			},
+			"offsets": {
+				"from": 215000,
+				"to": 216000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:36,000",
+				"to": "00:03:37,000"
+			},
+			"offsets": {
+				"from": 216000,
+				"to": 217000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:37,000",
+				"to": "00:03:38,000"
+			},
+			"offsets": {
+				"from": 217000,
+				"to": 218000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:38,000",
+				"to": "00:03:39,000"
+			},
+			"offsets": {
+				"from": 218000,
+				"to": 219000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:39,000",
+				"to": "00:03:40,000"
+			},
+			"offsets": {
+				"from": 219000,
+				"to": 220000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:40,000",
+				"to": "00:03:41,000"
+			},
+			"offsets": {
+				"from": 220000,
+				"to": 221000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:41,000",
+				"to": "00:03:42,000"
+			},
+			"offsets": {
+				"from": 221000,
+				"to": 222000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:42,000",
+				"to": "00:03:43,000"
+			},
+			"offsets": {
+				"from": 222000,
+				"to": 223000
+			},
+			"text": "(Fourth of the Truth)"
+		},
+		{
+			"timestamps": {
+				"from": "00:03:43,000",
+				"to": "00:03:45,000"
+			},
+			"offsets": {
+				"from": 223000,
+				"to": 225000
+			},
+			"text": "(Fourth of the Truth)"
+		}
+	]
+}

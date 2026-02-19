@@ -1,23 +1,48 @@
 {
-  "name": "whisper_ui",
+  "name": "whisper-gui",
   "version": "1.0.0",
-  "description": "a whisper app",
+  "description": "Whisper 语音识别 GUI",
   "main": "main.js",
   "scripts": {
-    "start": "electron-forge start",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "package": "electron-forge package",
-    "make": "electron-forge make"
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
-  "keywords": [
-    "whisper",
-    "gui"
-  ],
-  "author": "lilyco42",
-  "license": "MIT",
+  "build": {
+    "appId": "com.yourname.whisper-gui",
+    "productName": "Whisper GUI",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "temp/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "dist/whisper_worker.exe",
+        "to": "python/whisper_worker.exe"
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true
+    }
+  },
   "devDependencies": {
-    "@electron-forge/cli": "^7.11.1",
-    "electron-prebuilt-compile": "40.5.0"
+    "electron": "latest",
+    "electron-builder": "latest"
   },
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^1.13.5",
+    "progress": "^2.0.3"
+  }
 }
