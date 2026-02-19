@@ -1,7 +1,6 @@
 node_modules
 Release
 # 忽略 whisper 文件夹中的所有二进制文件和模型
-whisper/*.exe
 whisper/*.dll
 whisper/*.bin
 whisper/*.wav
