@@ -1,48 +1,33 @@
-{
-  "name": "whisper-gui",
-  "version": "1.0.0",
-  "description": "Whisper 语音识别 GUI",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+"build": {
+  "appId": "com.yourname.whisper-electron-ui",
+  "productName": "Whisper Electron UI",
+  "directories": {
+    "output": "release"
   },
-  "build": {
-    "appId": "com.yourname.whisper-gui",
-    "productName": "Whisper GUI",
-    "directories": {
-      "output": "release"
-    },
-    "files": [
-      "main.js",
-      "preload.js",
-      "renderer.js",
-      "index.html",
-      "temp/**/*"
-    ],
-    "extraResources": [
-      {
-        "from": "dist/whisper_worker.exe",
-        "to": "python/whisper_worker.exe"
-      }
-    ],
-    "win": {
-      "target": "nsis",
-      "icon": "build/icon.ico"
-    },
-    "nsis": {
-      "oneClick": false,
-      "allowToChangeInstallationDirectory": true,
-      "createDesktopShortcut": true
+  "files": [
+    "main.js",
+    "preload.js",
+    "renderer.js",
+    "index.html"
+  ],
+  "extraResources": [
+    {
+      "from": "whisper",
+      "to": "whisper",
+      "filter": ["**/*"]
     }
+  ],
+  "scripts": {
+    "dist": "electron-builder"
+  }
+  "win": {
+    "target": "nsis",
+    // "icon": "build/icon.ico"  // 如果有图标，请放置；否则可删除该行
   },
-  "devDependencies": {
-    "electron": "latest",
-    "electron-builder": "latest"
-  },
-  "dependencies": {
-    "axios": "^1.13.5",
-    "progress": "^2.0.3"
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true
   }
 }
