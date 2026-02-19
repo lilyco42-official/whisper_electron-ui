@@ -1,33 +1,37 @@
-"build": {
-  "appId": "com.yourname.whisper-electron-ui",
-  "productName": "Whisper Electron UI",
-  "directories": {
-    "output": "release"
-  },
-  "files": [
-    "main.js",
-    "preload.js",
-    "renderer.js",
-    "index.html"
-  ],
-  "extraResources": [
-    {
-      "from": "whisper",
-      "to": "whisper",
-      "filter": ["**/*"]
-    }
-  ],
+{
+  "name": "whisper-electron-ui",
+  "version": "1.0.0",
+  "main": "main.js",
   "scripts": {
     "dist": "electron-builder"
-  }
-  "win": {
-    "target": "nsis",
-    // "icon": "build/icon.ico"  // 如果有图标，请放置；否则可删除该行
   },
-  "nsis": {
-    "oneClick": false,
-    "allowToChangeInstallationDirectory": true,
-    "createDesktopShortcut": true,
-    "createStartMenuShortcut": true
+  "build": {
+    "appId": "com.yourname.whisper-electron-ui",
+    "productName": "Whisper Electron UI",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html"
+    ],
+    "extraResources": [
+      {
+        "from": "whisper",
+        "to": "whisper",
+        "filter": ["**/*"]
+      }
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
   }
 }
