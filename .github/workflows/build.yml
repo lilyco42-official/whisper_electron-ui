@@ -18,66 +18,23 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'pnpm'
+          cache: 'npm'          # 自动缓存 npm 的全局缓存目录
 
-      # 启用 corepack
-      - name: Enable corepack
-        run: corepack enable
-
-      # 准备 pnpm（指定版本）
-      - name: Prepare pnpm
-        run: corepack prepare pnpm@8 --activate   # 如果使用 pnpm 9，改为 9
-
-      # 验证 corepack 是否可用，并输出 pnpm 路径
-      - name: Verify corepack and pnpm
-        run: |
-          corepack --version
-          corepack pnpm --version
-          echo "pnpm location: $(where corepack pnpm 2>$null || echo 'not found')"
-
-      # 设置环境变量：将 corepack 的 bin 目录添加到 PATH（Windows 特有）
-      - name: Add corepack to PATH
-        run: |
-          $corepackPath = "$env:APPDATA\npm"
-          echo "$corepackPath" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
-        shell: pwsh
-
-      # 获取 pnpm store 目录（使用 corepack pnpm 确保能找到命令）
-      - name: Get pnpm store directory
-        id: pnpm-cache
-        run: |
-          $storePath = corepack pnpm store path
-          echo "pnpm_cache_dir=$storePath" >> $env:GITHUB_OUTPUT
-        shell: pwsh
-
-      # 缓存 pnpm store
-      - name: Cache pnpm store
-        uses: actions/cache@v3
-        with:
-          path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
-          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-
-
-      # 安装依赖（使用 corepack pnpm）
       - name: Install dependencies
-        run: corepack pnpm install --frozen-lockfile
+        run: npm ci              # 使用 package-lock.json 进行确定性安装
 
-      # 构建 Electron 应用
       - name: Build Electron app
-        run: corepack pnpm dist
+        run: npm run dist        # 执行 electron-builder 打包
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 上传构建产物
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: installer
-          path: release/*.exe
+          path: release/*.exe     # 根据您的 electron-builder 输出路径调整
           if-no-files-found: error
 
-      # 创建 Release（仅当是标签推送时）
       - name: Create Release
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v1
